@@ -1,0 +1,18 @@
+.toggle-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+button {
+  background: var(--accent-color);
+  border: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: #000;
+}

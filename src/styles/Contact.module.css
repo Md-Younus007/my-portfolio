@@ -1,0 +1,46 @@
+.contact {
+  padding: 4rem 2rem;
+  background-color: #f3f3f3;
+  text-align: center;
+  transition: blue 0.3s;
+}
+.contact h2 {
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+input, textarea {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #6065ff;
+}
+.details p {
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+}
+
+.socials a {
+  margin-right: 1rem;
+  color: #2a2a72;
+  text-decoration: none;
+  font-weight: bold;
+}
